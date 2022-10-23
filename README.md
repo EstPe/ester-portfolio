@@ -6,3 +6,4 @@
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-13%20June%202021-yellow.svg)](https://github.com/AVS1508/My-Alternate-Portfolio-Website/commit/master) -->
 
 ![My Alternate Portfolio Website](https://raw.githubusercontent.com/AVS1508/My-Ester-Portfolio-Website/Esterportfolio.png)
+<img src="Esterportfolio.png">
