@@ -22,6 +22,10 @@
 
     <!-- Import CSS: Main Stylesheet -->
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+    rel="stylesheet"
+  />
 </head>
 
 <body>
@@ -30,41 +34,37 @@
             <h1>
                 <span class="site-title">Ester Peretz</span>
                 <span class="site-description">
-            Junior Web Developer • Node.JS • Angular</span
+            Junior FullStack Developer • Node.JS • Angular</span
           >
         </h1>
+        
         <div class="header-icons">
           <a
             aria-label="My LinkedIn Profile"
             target="_blank"
             href="https://www.linkedin.com/in/ester-peretz/"
           >
-            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+            <i class="icon bx bxl-linkedin" aria-hidden="true"></i>
           </a>
           <a
             aria-label="My Github Profile"
             target="_blank"
             href="https://github.com/EstPe"
           >
-            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+            <i class="icon bx bxl-github" aria-hidden="true"></i>
           </a>
-          <!-- <a
-            aria-label="My Résumé"
-            target="_blank"
-            href="https://www.adityavsingh.com/resume.html"
-          >
-            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
-          </a> -->
+         
           <a
             aria-label="Send Email"
             href="mailto:peretz398@gmail.com"
             target="_blank"
-            ><i class="icon fa fa-envelope"></i
+            ><i class="icon bx bx-mail-send"></i
           ></a>
         </div>
         <div class="header-links">
           <a class="link" href="#about" data-scroll>About Me</a>
           <a class="link" href="#projects" data-scroll>Projects</a>
+          <a class="link" href="Ester Peretz Resume.pdf" target="_blank">Resume</a>
         </div>
       </div>
       <a class="down" href="#about" data-scroll
@@ -75,47 +75,80 @@
     <!-- About Section -->
     <section id="about">
       <!-- User Introduction-->
-      <div class="user-details">
-        <h1>My Story</h1>
-        <picture>
-          <source
-            type="image/webp"
-            srcset="./assets/img/webp/Professional-Picture-Me.webp"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-          <img
-            src="./assets/img/jpg/Professional-Picture-Me.jpg"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-        </picture>
-        <p>
-          I am a junior in the College of Information and Computer Sciences at
-          the University of Massachusetts Amherst, pursuing an undergraduate
-          degree. I am majoring in Computer Science, with intent to double major
-          in Mathematics with Statistics and Data Science concentration. I'm
-          involved as a Software Developer for BUILD UMass, where I use my
-          software engineering skills for pro-bono app/web development and tech
-          consulting for the Amherst community. I also serve as a Designer for
-          the HackUMass Organizing Team, responsible for graphics design and
-          production for the annual hackathon. I am interested in exploring the
-          fields of Software Engineering, Data Science, and Machine Learning,
-          and I am open to opportunities for the same.
+      <!-- <div class="user-details">
+      <div style="justify-self: unset;"> 
+        <img src="\assets\img\jpg\tell-me-about-yourself-written.jpg">
+        <p style="font-family: Times, serif;font-size:18px"> 
+          <span style="font-weight: bold;font-size:20px">Hi there 👋 I'm Ester, 23 years old from haifa a junior fullStack
+            developer</span>,<br>
+            Looking to get my first job in the Full Stack/Frontend development industry.
+          <br />
+          Just finished my studies in ort braude ,I did personal teaching to other students,<br>
+           Now I am open to opportunities to learning new technologies and I have motivation to improve my skills.<br>
+         I always have the drive and eager to learn new things. I have tons of motivation,excellent in
+          teamwork , thinking out of the box and self lerning ! On my spare time, I like to bake, volunteering
+         and just chilling watching netflix with my friends :). <br>
+         💬 Feel free to have a chat with me ,you can reach me through my linkedin profile or my email.
         </p>
       </div>
+      
+      </div> -->
+      <div class="user-projects">
+        <div class="images-right" style="margin-top: 10%;width:40%">
+          <img
+              alt="Personal Website"
+              src="\assets\img\jpg\tell-me-about-yourself-written.jpg"
+            />
+         
+        </div>
+        <div class="contents" style="text-align: center;margin-top: 3%;">
+          <h1>My Story</h1>
+          <p style="font-family:  Arial;font-size:17px;text-align: left;width:120%"> 
+            <span style="font-weight: bold;font-size:19px">
+              Hi there 👋 I'm Ester, 23 years old from haifa, a junior FullStack developer.</span><br>
+              Looking to get my first job in the Full Stack/Frontend development industry.<br>
+              Just finished my studies in ort braude,open to new opportunities to learning new technologies.
+              I have motivation to improve my skills, I always have the drive and eager to learn new things. I got tons of motivation,excellent in
+              teamwork , thinking out of the box and self lerning ! On my spare time, I like to bake, volunteering
+              and just chilling watching netflix with my friends :). <br>
+              💬 Feel free to have a chat with me ,you can reach me through my linkedin profile or my email.
+          </p>
+         
+        </div>
+      </div>
+      
+     
 
       <!-- User Specifics -->
       <div class="user">
         <!-- Technology Stack #1: Languages -->
         <div class="tech">
           <h2>Languages</h2>
-          <i class="devicon-python-plain colored"></i>
-          <i class="devicon-java-plain-wordmark colored"></i>
-          <i class="devicon-typescript-plain colored"></i>
-          <i class="devicon-javascript-plain colored"></i>
+          <img
+          height="50"
+          width="55"
+          name="java"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png"          
+        />
+          <img
+          height="50"
+          width="55"
+          name="java"
+          src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png"          
+        />
+        <img
+        height="50"
+        width="55"
+        name="typescript"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png"          
+      />
+      <img
+      height="50"
+      width="55"
+      name="javascript"
+      src="https://www.computerhope.com/jargon/j/javascript.png"          
+    />
+          
           <p>
             My favorite languages for systems programming, software engineering,
             and data analysis.
@@ -125,11 +158,35 @@
         <!-- Technology Stack #2: Front-End -->
         <div class="tech">
           <h2>Front-End</h2>
-          <i class="fa-brands fa-angular"></i>
-          <i class="devicon-bootstrap-plain-wordmark colored"></i>
-          <!-- <i class="devicon-angularjs-plain-wordmark colored"></i> -->
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
+          <img
+          height="50"
+          width="55"
+          name="angular"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png"          
+        />
+         
+          <img
+          height="50"
+          width="53"
+          name="bootstrap"
+           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
+          
+        /><br>
+            <img
+            height="50"
+            width="53"
+            name="html"
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"
+             
+            />
+            <img
+            height="50"
+            width="50"
+            name="css"
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpNYLQj1JDQnc-3-k_3aFpAdcMI71NeOnOqKtrFzELb_rZxj4T2n2paK9Amxty89opXVI&usqp=CAU"
+             
+            />
+          
           <p>
             My preferred technologies for front-end web development and
             component design.
@@ -139,9 +196,28 @@
         <!-- Technology Stack #3: Back-End -->
         <div class="tech">
           <h2>Back-End</h2>
-          <i class="devicon-nodejs-plain colored"></i>
-          <i class="devicon-express-original-wordmark colored"></i>
-          <i class="devicon-mongodb-plain-wordmark colored"></i>
+          
+          <img
+          height="50"
+          name="express"
+             src="https://expressjs.com/images/express-facebook-share.png"
+           
+          /><br>
+          <img
+          height="70"
+          width="80"
+          name="nodejs"
+             src="https://pluralsight2.imgix.net/paths/images/nodejs-45adbe594d.png"
+           
+          />
+          <img
+          height="70"
+          width="80"
+          name="mongodb"
+             src="https://g.foolcdn.com/art/companylogos/square/mdb.png"
+           
+          />
+          <i class="bx bxl-mongodb"></i>
           <p>
             My preferred technologies for back-end web programming and database
             architecture.
@@ -151,8 +227,27 @@
         <!-- Technology Stack #4: Tools -->
         <div class="tech" style="width: 50%">
           <h2>Tools</h2>
-          <i class="devicon-visualstudioC-plain colored"></i>
-          <i class="devicon-visualstudio-plain colored"></i>
+          <img
+          height="70"
+          width="80"
+          name="visual studio code"
+             src="https://yt3.ggpht.com/_q52i8bUAEvcb7JR4e-eNTv23y2A_wg5sCz0NC0GrGtcw1CRMWJSOPVHUDh_bngD0q4gMvVeoA=s900-c-k-c0x00ffffff-no-rj"
+           
+          />
+          <img
+          height="70"
+          width="80"
+          name="visual studio"
+             src="https://visualstudio.microsoft.com/wp-content/uploads/2021/10/Product-Icon.svg"
+           
+          />
+          <img
+          height="70"
+          width="120"
+          name="visual studio"
+             src="https://miro.medium.com/max/719/0*k7H1_j7ols5Mlwse.png"
+           
+          />
           <i class="devicon-github-plain-wordmark colored"></i>
           <p>My favorite tools for version control, code editing.</p>
         </div>
@@ -373,7 +468,7 @@
     </section>
 
     <footer class="footer">
-      <p>&copy; Aditya Vikram Singh, 2020</p>
+      <p>&copy;Ester Peretz</p>
     </footer>
 
     <!-- Import JS: Particles Theme -->
